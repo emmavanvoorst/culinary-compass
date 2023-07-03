@@ -1,0 +1,18 @@
+{
+  "name": "culinary-compass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "emmavanvoorst <emmavanvoorst@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/emmavanvoorst/culinary-compass.git",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
