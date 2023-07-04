@@ -25,11 +25,10 @@ express()
 
 
   //endpoints
- .get("/api", (req, res) => {
-    res.json({ message: "Hello from server!" });
+  .get("/api", (req, res) => {
+    res.json({ message: "Hello from server!" })
   })
   
-  .get('/wXEEdKXqn6xFssLJXvD3YTWOT3DnNPmV')
 
 
 .listen(PORT, () => console.info(`Listening on port ${PORT}`));

@@ -12,7 +12,13 @@
   "license": "ISC",
   "repository": "https://github.com/emmavanvoorst/culinary-compass.git",
   "dependencies": {
+    "@tomtom-international/web-sdk-maps": "^6.23.0",
+    "@tomtom-international/web-sdk-services": "^6.23.0",
     "express": "^4.18.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "react-calendar": "^4.3.0",
+    "react-router-dom": "^6.14.1",
+    "styled-components": "^6.0.2",
+    "toastify": "^2.0.1"
   }
 }
